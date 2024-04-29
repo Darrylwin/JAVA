@@ -32,40 +32,45 @@ public class Personne {
     }
 
     // Constructeur par recopie (ne prend qu'un paramètre qui est l'objet à copier):
-    public Personne(/* La classe de l'objet qui represente ici son type */Personne  /* Le nom de l'objet */Personne_1) {
+    public Personne(/* La classe de l'objet qui represente ici son type */Personne /* Le nom de l'objet */ Personne_1) {
         nom = Personne_1.nom;
         prenom = Personne_1.prenom;
         age = Personne_1.age;
     }
 
     // SELECTEURS ou ACCESSEURS
-    // Un selecteur renvoie la valeure d'un attribut. Elle a un type de retour mais pas de paramètre en entrée puisque la variable à retourner vient avec son état
+    // Un selecteur renvoie la valeure d'un attribut. Elle a un type de retour mais
+    // pas de paramètre en entrée puisque la variable à retourner vient avec son
+    // état
 
-    public String getNom(){
-        /* Le 'get' permet d'accéder à la variable et ensuite on met le nom de la variable mais commençant par un grand caractère. */
+    public String getNom() {
+        /*
+         * Le 'get' permet d'accéder à la variable et ensuite on met le nom de la
+         * variable mais commençant par un grand caractère.
+         */
         return nom;
     }
 
-    public String getPrenom(){
+    public String getPrenom() {
         return prenom;
     }
 
-    public int getAge(){
+    public int getAge() {
         return age;
     }
 
     // MUTATEURS ou MODIFICATEURS
     // Ne retourne pas de valeure. Donc a pour type de retour void
 
-    public void setNom( String uneNom){
+    public void setNom(String uneNom) {
         nom = /* La nouvelle valeure de la variable */ uneNom;
     }
 
-    public void setPrenom( String unPrenom){
+    public void setPrenom(String unPrenom) {
         prenom = unPrenom;
     }
 
-    public void setAge(int UnAge){
+    public void setAge(int UnAge) {
         age = UnAge;
     }
 
