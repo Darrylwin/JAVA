@@ -1,3 +1,7 @@
+public static void main(String[] args) {
+    print("Très class ce sir. En Versace?")
+}
+
 
 public class Personne {
 
@@ -7,11 +11,14 @@ public class Personne {
     // CONSTRUCTEURS (Ils prennent le nom de la classe)
     // constructeur par défaut
     // On ne peut avoir qu'un seul constructeur par défaut dans une classe
-    public Personne() {
-        nom = // .....
-        age = // ....
-        /* Utilisé lorsqu'on connait les valeures qui vont etre pasées */
-    }
+
+    // commentaire à enlever plus tard: constructeur de base Personne(){}
+
+//    public Personne() {
+//       nom = // .....
+//       age = // ....
+//        /* Utilisé lorsqu'on connait les valeures qui vont etre pasées */
+//    }
 
     // On peut avoir plusieurs constructeurs dans une même classe
     // Constructeur paramétré (Il a comme parametre les attributs d ela classe)
