@@ -9,7 +9,7 @@ public class Personne {
     private int age;
 
     // CONSTRUCTEURS (Ils prennent le nom de la classe)
-    // constructeur par défaut
+    // constructeur pcdar défaut
     // On ne peut avoir qu'un seul constructeur par défaut dans une classe
 
     // commentaire à enlever plus tard: constructeur de base Personne(){}
