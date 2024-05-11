@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Equipe",
+            "request": "launch",
+            "mainClass": "Equipe",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Personne",
+            "request": "launch",
+            "mainClass": "Personne",
+            "projectName": "JAVA_3df388da"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
