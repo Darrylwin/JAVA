@@ -1,29 +1,28 @@
-public static void main(String[] args) {
-    print("Très class ce sir. En Versace?")
-}
-
-
 public class Personne {
+
+    public static void main(String[] args) {
+        System.out.print("Très class ce soir. En Versace?");
+    }
 
     private String nom, prenom;
     private int age;
 
     // CONSTRUCTEURS (Ils prennent le nom de la classe)
-    // constructeur pcdar défaut
+    // constructeur par défaut
     // On ne peut avoir qu'un seul constructeur par défaut dans une classe
 
     // commentaire à enlever plus tard: constructeur de base Personne(){}
 
-//    public Personne() {
-//       nom = // .....
-//       age = // ....
-//        /* Utilisé lorsqu'on connait les valeures qui vont etre pasées */
-//    }
+    // public Personne() {
+    // nom = // .....
+    // age = // ....
+    // /* Utilisé lorsqu'on connait les valeures qui vont etre pasées */
+    // }
 
     // On peut avoir plusieurs constructeurs dans une même classe
-    // Constructeur paramétré (Il a comme parametre les attributs d ela classe)
+    // Constructeur paramétré (Il a comme parametre les attributs de la classe)
 
-    // premier constructeur paramétré (Exaussif: car il peut rendre en parametre
+    // premier constructeur paramétré (Exaussif: car il peut prendre en parametre
     // tous les attributs de la classe):
 
     public Personne(String Unenom, String Uneprenom, int Uneage /* Entre parenthèses on met les inconnus */) {
@@ -82,7 +81,11 @@ public class Personne {
     }
 
     // Methode d'instance
-    public Perimetre(){
+    public parler(){
         //Instructions
+    }
+
+    public manger(){
+
     }
 }
