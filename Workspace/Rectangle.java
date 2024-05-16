@@ -98,6 +98,11 @@ public class Rectangle {
 
         System.out.println("Le nouveau démi-périmètre du rectagle 1 est :" + rectangle1.Demi_Perimetre());
         System.out.println("Le nouveau démi-périmetre du rectagle 3 est :" + rectangle3.Demi_Perimetre());
+
+                        /* Getteurs */
+        System.out.println("La longueur du rectangle 1 est: " + rectangle1.getLongueur());
+        System.out.println("La largeur du rectangle 3 est: " + rectangle3.getLargeur());
+
     }
 }
 
