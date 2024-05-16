@@ -51,8 +51,8 @@ public class Personne {
 
     public String getNom() {
         /*
-         * Le 'get' permet d'accéder à la variable et ensuite on met le nom de la
-         * variable mais commençant par un grand caractère.
+          Le 'get' permet d'accéder à la variable et ensuite on met le nom de la
+          variable mais commençant par un grand caractère.
          */
         return nom;
     }
@@ -86,6 +86,5 @@ public class Personne {
     }
 
     public manger(){
-
     }
 }

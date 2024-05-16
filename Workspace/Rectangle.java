@@ -52,4 +52,11 @@ public class Rectangle {
         // Instructions
         return getLongueur() * getLargeur();
     }
+
+    // Méthode principale
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello World !");
+    }
 }
