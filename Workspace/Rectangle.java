@@ -87,6 +87,17 @@ public class Rectangle {
         System.out.println("L'Aire du rectangle 2 est: " + rectangle2.Aire());
         System.out.println("Le Démi-périmètre du rectangle 3 est: " + rectangle3.Demi_Perimetre());
 
+        // Utilisation des setteurs et des getteurs
+
+                      /* Setteurs */
+        rectangle1.setLongueur(20);
+        rectangle2.setLargeur(10.10);
+
+        System.out.println("La longueur du rectangle 1 après modification est: " + rectangle1.longueur);
+        System.out.println("La largeur du rectangle 2 après modification est: " + rectangle2.largeur);
+
+        System.out.println("Le nouveau démi-périmètre du rectagle 1 est :" + rectangle1.Demi_Perimetre());
+        System.out.println("Le nouveau démi-périmetre du rectagle 3 est :" + rectangle3.Demi_Perimetre());
     }
 }
 
