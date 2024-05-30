@@ -20,7 +20,7 @@ private class CompteBancaire {
         this.solde = solde;
     }
 
-    public (CompteBancaire compteN){
+    public CompteBancaire(CompteBancaire compteN){
 
         solde = compteN.solde;
     }

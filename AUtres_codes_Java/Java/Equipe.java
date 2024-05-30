@@ -2,10 +2,10 @@ public class Equipe extends Employe{
 
     public static void main(String[] args) {
         
-        Employe employe1 = new Employe("LABOU","Marc-léon");
-        Employe employe2 = new Employe("KOUA","Kévin");
-        Employe employe3 = new Employe("AMEBLE","Ike");
-        Employe employe4 = new Employe("ADJEGAH","Justice");
+        Equipe employe1 = new Equipe("LABOU","Marc-léon");
+        Equipe employe2 = new Equipe("KOUA","Kévin");
+        Equipe employe3 = new Equipe("AMEBLE","Ike");
+        Equipe employe4 = new Equipe("ADJEGAH","Justice");
 
         System.out.println(employe1.nom);
         System.out.println(employe2.nom);
