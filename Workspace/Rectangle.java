@@ -17,6 +17,13 @@ public class Rectangle {
         this.largeur = largeur;
     }
 
+/*    public Rectangle(double uneLongueur) {
+        longueur = uneLongueur;
+    }
+    public Rectangle(double uneLargeur) {
+        largeur = uneLargeur;
+    }*/  // Erreur car les deux constructeurs ont le même type
+
     public Rectangle( Rectangle Un_Rectangle){
     longueur = Un_Rectangle.longueur;
     largeur = Un_Rectangle.largeur;
