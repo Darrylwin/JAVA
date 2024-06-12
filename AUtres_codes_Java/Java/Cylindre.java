@@ -1,3 +1,5 @@
+package Java;
+
 public class Cylindre extends Cercle{
 
     private int hauteur;
@@ -11,11 +13,13 @@ public class Cylindre extends Cercle{
         this.rayon = rayon;
     }
 
+/*
     public Cylindre(double rayon, int hauteur){
 
         super(rayon);
         this.hauteur = hauteur;
     }
+*/
 
     public int getHauteur(){
 

@@ -1,3 +1,5 @@
+package Java;
+
 public class Point {
     
     private int abs, ord;

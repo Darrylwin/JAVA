@@ -1,14 +1,14 @@
-class Compte {
+class CompteBancaire {
 
     private double solde;
 
-    public Compte(){}
+    public CompteBancaire(){}
 
-    public Compte(double solde){
+    public CompteBancaire(double solde){
         this.solde = solde;
     }
 
-    public Compte(Compte cpt){
+    public CompteBancaire(CompteBancaire cpt){
         solde = cpt.solde;
     }
 
@@ -33,9 +33,9 @@ class Compte {
 
     public static void main(String[] args){
 
-        Compte compte1 = new Compte();
-        Compte compte2 = new Compte(15000);
-        Compte compte3 = new Compte(compte2);
+        CompteBancaire compte1 = new CompteBancaire();
+        CompteBancaire compte2 = new CompteBancaire(15000);
+        CompteBancaire compte3 = new CompteBancaire(compte2);
 
         compte1.deposer(5000);
         compte2.deposer(15000);

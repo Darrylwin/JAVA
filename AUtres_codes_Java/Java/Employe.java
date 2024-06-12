@@ -1,3 +1,5 @@
+package Java;
+
 public class Employe {
 
     protected String nom, prenom;

@@ -1,4 +1,6 @@
-private class CompteBancaire {
+package Java;
+
+class CompteBancaire {
 
     public static void main(String[] args ){
 
@@ -27,27 +29,25 @@ private class CompteBancaire {
 
     public void afficher(){
 
-        if solde < 0{
-            System.out.println(String.join("Le solde estdébiteur de ",-solde,"FCFA"))
-        
+        if (solde < 0){
+            System.out.println("Le solde est débiteur de " + (-solde) + "FCFA");
         }
         else{
 
-            System.out.println(String.join("Le solde créditeur de ",solde,"FCFA"))
+            System.out.println("Le solde est créditeur de " + solde + "FCFA");
         }
-
     }
 
-    public double deposer(uneSomme){
+
+    public double deposer(double uneSomme) {
 
         return solde + uneSomme;
     }
 
-    public double retirer(){
+    public double retirer(double uneSomme){
         
         return solde - uneSomme;
     }
 
-    public double virerVers(){}
 
 }
